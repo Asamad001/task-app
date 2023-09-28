@@ -66,8 +66,8 @@ class HomeController extends GetxController {
     FeedStoryimage(kJpgImage2),
     FeedStoryimage(kJpgImage3),
     FeedStoryimage(kJpgImage4),
-    FeedStoryimage(kJpgImage4),
     FeedStoryimage(kJpgImage5),
+    FeedStoryimage(kJpgImage3),
   ];
 }
 

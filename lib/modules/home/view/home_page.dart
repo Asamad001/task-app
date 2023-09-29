@@ -8,6 +8,8 @@ import 'package:task_app/core/utils/app_text_style.dart';
 import 'package:task_app/core/widgets/container.dart';
 import 'package:task_app/modules/home/controller/home_controller.dart';
 
+import '../../../core/strings/text_constant.dart';
+
 class HomePage extends StatelessWidget {
   HomePage({super.key});
   late Size size;
@@ -29,7 +31,7 @@ class HomePage extends StatelessWidget {
                     children: [
                       SizedBox(width: size.width * 0.02),
                       Text(
-                        "Instravel",
+                        kAppName,
                         style: AppTextStyle.textStyleLargeBold,
                       ),
                       Spacer(),
